@@ -1,0 +1,1 @@
+main = interact $ unlines . fmap (show . (\[x,y] -> abs x-y) . map read . words) . lines

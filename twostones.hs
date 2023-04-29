@@ -1,0 +1,1 @@
+main = interact $ (\x -> if even x then "Bob" else "Alice") . read

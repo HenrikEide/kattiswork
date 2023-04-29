@@ -1,0 +1,1 @@
+main = interact $ (\xs -> "A"++(take (length xs) (cycle "WHO")))

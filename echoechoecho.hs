@@ -1,0 +1,1 @@
+main = interact $ unwords . replicate 3

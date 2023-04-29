@@ -1,0 +1,1 @@
+let findCount = (code) => code.match(/.+_.+/).length;
