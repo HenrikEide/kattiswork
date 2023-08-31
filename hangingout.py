@@ -1,12 +1,10 @@
-l, x = [int(i) for i in input().split()]
+l, x = map(int, input().split())
 n = m = 0
-for a, b in [input().split() for _ in range(x)]:
-    s, x = a, int(b)
-    if s == "enter":
-        if n + x <= l:
-            n += x
-        else:
-            m += 1
+for a, x in [input().split() for _ in range(x)]:
+    x = int(x)
+    if a[0] == "e":
+        m += n + x > l
+        n += x * (n + x <= l)
     else:
         n -= x
 print(m)
