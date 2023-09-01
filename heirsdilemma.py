@@ -1,0 +1,1 @@
+print(sum(all(int(d)and n%int(d)<1 for d in str(n))for n in range(*map(int,input().split()))if len(set(str(n)))>5))
