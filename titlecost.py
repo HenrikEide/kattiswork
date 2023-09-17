@@ -1,0 +1,1 @@
+print(min(len((j:=input().split())[0]),eval(j[1])))
