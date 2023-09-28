@@ -1,3 +1,3 @@
 main = do
-    n <- readLn :: IO Float
+    n <- readLn :: IO Double
     print $ n * 0.09144
