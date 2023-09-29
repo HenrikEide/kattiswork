@@ -1,3 +1,3 @@
 ## Some kattiswork
 
-Usually I dont bother saving each sol as a separate file since its saved on kattis anyway.
+Some of my solutions to various kattis problems. Some python solutions are also very golfed, and thus might be hard to read.
