@@ -1,0 +1,1 @@
+print(['Neibb','Jebb','Kannski'][((a:=input())in'AEIOU')-(a=='Y')])
