@@ -1,0 +1,1 @@
+main=interact$filter(flip elem [65..90].fromEnum).map head.words.last.lines
